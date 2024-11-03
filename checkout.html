@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/396ddbb80c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="" alt="" /> LOGO</a>
+      <label for="hamburger-menu">
+        <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+      </label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="shop.html" class="active">Shop</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="checkout-container">
+        <section>
+          <img
+            src="images\RainyDays_Jacket5.jpg"
+            alt="Men's Summit Rain Jacket"
+          />
+        </section>
+        <section class="checkout-info">
+          <p>Checkout</p>
+          <h1>Order Summary</h1>
+          <p>Product Name: Men’s Summit Rain Jacket</p>
+          <p>Price: $109.99</p>
+          <p>Shipping: Free</p>
+          <p>Total: $109.99</p>
+
+          <form>
+            <div class="form-wrapper">
+              <section>
+                <h2>
+                  Shipping <br />
+                  Information
+                </h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" />
+                <label for="address">Address:</label>
+                <input type="text" id="address" />
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" />
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" />
+              </section>
+              <section>
+                <h2>Payment Information</h2>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" />
+                <label for="expiry">Expiry Date:</label>
+                <input type="text" id="expiry" />
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" />
+              </section>
+            </div>
+
+            <a href="success.html" class="pay-btn">
+              <span>Pay</span><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
