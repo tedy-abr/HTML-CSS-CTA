@@ -50,7 +50,7 @@ nav ul {
       rgba(9, 10, 9, 0.2) 0%,
       rgba(9, 10, 9, 0.2) 100%
     ),
-    url("./images/bg-image.jpg") lightgray 50% / cover no-repeat;
+    url("../images/bg-image.jpg") lightgray 50% / cover no-repeat;
   height: 100vh;
   display: flex;
   flex-direction: column;
